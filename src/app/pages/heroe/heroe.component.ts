@@ -30,7 +30,7 @@ export class HeroeComponent implements OnInit {
       this.usuariosService.getUser( id )
         .subscribe( (resp: UserModel) => {
           this.usuario = resp;
-        //  this.heroe.id = id;
+        //  this.heroe.id = id; comentario
         });
 
     }
